@@ -42,7 +42,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         wget \
         zip \
         zlib1g-dev \
-        python3-distuitls \
+        python3-distutils \
         && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
